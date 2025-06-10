@@ -1,7 +1,7 @@
 
 # Deployment Setup Guide 🚀
 
-This guide walks you through setting up a deployment pipeline using Jenkins for deploying your web application to **PP (Pre-Production)** and **PROD (Production)** environments with AWS services.
+Zero-downtime Blue-Green deployments to AWS (PP/PROD) using Jenkins.  
 
 ## 🛠️ Deployment Process Overview
 
@@ -79,9 +79,3 @@ Stops the PP instance after successful deployment.
 ## 🎯 Conclusion
 
 This guide provides a simple yet detailed process to deploy your web application to **PP** and **PROD** environments using AWS and Jenkins. Ensure that your environment variables are correctly configured, and follow the steps for each deployment job to achieve successful deployments.
-
-For further help, check the attached PDF or visit the docs at [docs.ahmadraza.in](https://docs.ahmadraza.in).
-
-
---- 
-
