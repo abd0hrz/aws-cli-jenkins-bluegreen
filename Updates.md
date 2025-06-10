@@ -31,6 +31,7 @@ updated_config=$(echo $current_config | jq '.[0].ForwardConfig.TargetGroups[0].W
 
 # Step 3: Apply the updated listener configuration
 aws elbv2 modify-listener \
+
   --listener-arn $ALB_LISTENER_ARN \
   --default-actions "$updated_config"
 ```
